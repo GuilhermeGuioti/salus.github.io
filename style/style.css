@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+  body{
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  header{
+    background: #11644d;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #f2c94e 3px solid;
+  }
+
+  header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+
+  header ul{
+    padding: 0;
+    list-style: none;
+  }
+
+  header ul li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+
+  header #name h1{
+    margin: 0;
+    font-family: "Lobster", sans-serif;
+  }
+
+  header nav{
+    float: right;
+    margin-top: 10px;
+  }
+
+  header .highlight, header .current a{
+    color: #f2c94e;
+    font-weight: bold;
+  }
+
+  header a:hover{
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  header #logo,
+  header #name {
+    float: left;
+    display: flex;
+    align-items: center;
+  }
+
+  header #logo img {
+    margin-right: 10px;
+  }
+
+  .banner{
+    background-image: url('caminhada_ao_ar_livre.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lobster", sans-serif;
+  }
+
+  .banner h1{
+    font-size: 60px;
+    color: #11644d;
+  }
+
+  .banner h1 span{
+    color: #f2c94e;
+  }
+
+  .main-content{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .card{
+    background: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .1);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .card h3{
+    margin-top: 0;
+  }
+
+  .gallery-title{
+    text-align: center;
+    color: #333;
+    margin: 40px 0;
+  }
+
+  .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .gallery img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  .gallery a{
+    flex: 0 0 30%; 
+    margin-bottom: 50px;  
+  }
+
+  .footer{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .fixed{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .fixed img{
+    width: 150px;
+  }

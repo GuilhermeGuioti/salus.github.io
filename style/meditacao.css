@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+main{
+    width: 80%;
+    height: 100vh;   
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header{
+    background: #11644d;
+    color: white;
+    padding-top: 30px;
+    height: 70px;
+    border-bottom: #f2c94e 3px solid;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #branding h1{
+    margin: 0;
+    font-size: 32px;
+    font-family: "Lobster", sans-serif;
+}
+
+header nav ul{
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline;
+    padding: 0 20px;
+}
+
+header nav ul li.current a{
+    color: #f2c94e;
+    font-weight: bold;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header nav ul li.current a:hover{
+    color: #FFf;
+    font-weight: bold;
+}
+
+.highlight{
+    color: #f2c94e;
+    font-weight: bold;
+}
+
+header #branding {
+    display: flex;
+    align-items: center;
+}
+
+header #branding h1 {
+    margin: 0;
+    font-size: 32px;
+    font-family: "Lobster", sans-serif;
+}
+
+header #branding img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.beneficios,
+.dicas {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #f0f0f0;
+}
+
+
+.beneficios h2,
+.dicas h2 {
+    color: #11644d;
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+
+.beneficios p,
+.dicas p {
+    line-height: 1.6;
+    color: #333;
+    font-size: 17px;
+}
+
+.beneficios ul li{
+    font-weight: bolder;
+}
+
+.dicas img {
+    display: block;
+    margin-top: 20px;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+.dicas iframe {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+}
+
+.dicas h3{
+    color: #11644d;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #11644d;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.fixed img{
+    width: 150px;
+}
+
+.help {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #f0f0f0;
+}
+
+.help h2 {
+    color: #11644d;
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+.help-content {
+    flex: 1;
+}
+
+.help p {
+    line-height: 1.6;
+    color: #333;
+    font-size: 17px;
+}
+
+.help img {
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.title-2{
+    text-align: center;
+    margin-top:30px;
+}
+
+.sublinhado{
+    font-size: 30px;
+    color: #11644d;
+    border-bottom: 8px solid #f2c94e;
+    padding-bottom: 4px;
+    display: inline-block;   
+}
+
+.music{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.column {
+    width: 48%; 
+}
+
+.step {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.step-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f2c94e;
+}
+
+.step h2 {
+    color: #333;
+}
+
+.step p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+
+
+
+
+
